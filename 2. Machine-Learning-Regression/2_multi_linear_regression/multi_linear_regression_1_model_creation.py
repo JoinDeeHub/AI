@@ -57,3 +57,5 @@ pickle.dump(regressor, open(good_fit_model_name, 'wb'))
 load_good_fit_model = pickle.load(open(good_fit_model_name, "rb"))
 result = load_good_fit_model.predict([[160000, 130000, 140000, 0, 1]])
 print("Predicted Profit for 160000, 130000, 140000, 0, 1: ", result)
+
+########################## R2 Score:  0.9358680970046243
