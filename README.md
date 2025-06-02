@@ -54,3 +54,24 @@ Welcome to the **AI Projects Repository** — a growing collection of practical 
    ```bash
    git clone https://github.com/JoinDeeHub/AI.git
    cd AI
+
+---
+
+Open in JupyterLab / Jupyter Notebook
+
+   ```bash
+   jupyter notebook
+
+
+---
+## Explore, Run, Modify, and Learn!
+
+✨ Contributions
+This repository is maintained by Deepika, a passionate DevOps and AI enthusiast.
+Feel free to fork or raise issues if you'd like to collaborate or give feedback.
+---
+📬 Contact
+For collaborations or inquiries:
+📧 [deepika2.ytb@gmail.com] 
+
+⭐ If you find this helpful, don't forget to give it a star!
