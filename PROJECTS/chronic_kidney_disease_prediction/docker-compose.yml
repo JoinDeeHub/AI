@@ -1,0 +1,14 @@
+version: '3.8'
+
+services:
+  ckd-app:
+    build: .
+    container_name: ckd-predictor
+    ports:
+      - "8501:8501"
+    volumes:
+      - ./data:/app/data
+      - ./models:/app/models
+      - ./src:/app/src
+    environment:
+      - PYTHONPATH=/app

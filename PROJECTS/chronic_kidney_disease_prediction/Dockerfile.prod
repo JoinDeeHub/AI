@@ -1,0 +1,10 @@
+FROM deehub/ckd-predictor:latest
+
+# Expose the port the app runs on
+EXPOSE 8501
+
+# Set up volumes (note: Dockerfile VOLUME is a hint, actual mounting is done at runtime)
+VOLUME ["/app/data", "/app/models"]
+
+# Set the default command to run the application
+CMD ["streamlit", "run", "app.py"]
